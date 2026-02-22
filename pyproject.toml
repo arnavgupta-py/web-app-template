@@ -1,0 +1,15 @@
+[project]
+name = "web-app-template"
+version = "0.1.0"
+description = "A modern, high-performance web MVP template using FastAPI, HTMX, Alpine.js, and Tailwind."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.129.2",
+    "jinja2>=3.1.6",
+    "psycopg[binary]>=3.3.3",
+    "pydantic>=2.12.5",
+    "python-multipart>=0.0.22",
+    "sqlalchemy>=2.0.46",
+    "uvicorn>=0.41.0",
+]
